@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Playfair+Display:700&display=swap&subset=latin-ext');
+
 html {
 	box-sizing: border-box;
 }
@@ -9,17 +11,40 @@ html {
 body {
 	margin: 0;
 	background-color: lavenderblush;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
 }
+h1 {
+	text-align: center;
+}
+h1,
+h2 {
+	font-family: 'Playfair Display', serif;
+}
+
 .logo {
 	display: block;
 	margin-inline: auto;
 }
-.intro {
+.intro,
+.moto {
 	text-align: center;
+	width: 50%;
+	margin-inline: auto;
 }
 .container {
 	max-width: 40rem;
 	background-color: white;
 	margin-inline: auto;
-	padding: 30px;
+	padding: 30px 50px;
+}
+.gallery {
+	width: 100%;
+}
+
+img {
+	width: calc((100% - 50px) / 3);
+}
+.middle {
+	margin-inline: 20px;
 }
