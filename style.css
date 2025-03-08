@@ -1,0 +1,25 @@
+html {
+	box-sizing: border-box;
+}
+*,
+::before,
+::after {
+	box-sizing: inherit;
+}
+body {
+	margin: 0;
+	background-color: lavenderblush;
+}
+.logo {
+	display: block;
+	margin-inline: auto;
+}
+.intro {
+	text-align: center;
+}
+.container {
+	max-width: 40rem;
+	background-color: white;
+	margin-inline: auto;
+	padding: 30px;
+}
